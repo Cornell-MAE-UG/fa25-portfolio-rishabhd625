@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Client Outline
-description: ODP Outline
+description: Advanced CAD Project
 
 ---
 
@@ -62,8 +62,7 @@ Why it’s better than the status quo:
 [1] Bekelja, K. and Russo, J. ”MAE 2250 - Spotted Lanternfly Presentation,” Cornell IPM and
 New York State Integrated Pest Management, 2026.
 
-```
-Figure 1: Prototype schematic of the proposed buoyancy-based spotted lanternfly filter.
-```
+![Figure 1: Prototype schematic of the proposed buoyancy-based spotted lanternfly filter.][def]
 
 
+[def]: /assets/images/ClientOutlineFigure1.png
