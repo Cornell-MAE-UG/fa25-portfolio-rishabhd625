@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Rishabh Dholakia - Curriculum Vitae
+title: Rishabh Dholakia - Resume
 permalink: /cv/
 ---
-## Curriculum Vitae
+## Resume
 
-[Download my CV]({{ "/assets/CV.pdf" | relative_url }}) in PDF format.
+[Download my Resume]({{ "/assets/CV.pdf" | relative_url }}) in PDF format.
 
 
 **Email:** [rd625@cornell.edu](mailto:netID@cornell.edu) | | | **Phone:** 631 590 0174
@@ -15,19 +15,15 @@ permalink: /cv/
 
 #### Education
 - **Cornell University**  
-  *Bachelor of Science in Mechanical and Aerospace Engineering*  
-  GPA: 3.8/4.0 | Graduation: Month, Year
-
-- **[High School Name]**  
-  *High School Diploma*  
-  Graduation: [Month, Year]
+  *Bachelor of Science in Mechanical Engineering*  
+  GPA: 4.185 | Graduation: May, 2028
 
 ---
 
 #### Skills
-- **Software:** Autodesk Fusion 360, SolidWorks, ANSYS  
+- **Software:** Autodesk Fusion 360, ANSYS  
 - **Programming:** Python, MATLAB  
-- **Tools:** 3D Printing, Laser Cutting  
+- **Tools:** 3D Printing, Mill, Lathe  
 
 ---
 
@@ -52,19 +48,3 @@ permalink: /cv/
 
 ---
 
-#### Achievements & Certifications
-- [Certification Name], [Issuing Organization], [Year]  
-- [Achievement Name], [Competition/Event], [Year]  
-
----
-
-#### Extracurricular Activities
-- Member of [Club/Organization Name]  
-- Volunteer for [Event/Organization Name]  
-
----
-
-#### References
-Available upon request.
-
----

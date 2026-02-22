@@ -15,4 +15,4 @@ What drew me to engineering was personal—growing up alongside my sister, who h
 
 I’m always looking to learn, build, and collaborate—feel free to reach out!
 
-Take a look at <a href="{{ "/projects/" | relative_url }}">my projects</a> and <a href="{{ "/cv/" | relative_url }}">CV</a>.
+Take a look at <a href="{{ "/projects/" | relative_url }}">my projects</a> and <a href="{{ "/cv/" | relative_url }}">Resume</a>.
