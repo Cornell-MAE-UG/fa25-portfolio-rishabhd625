@@ -2,7 +2,7 @@
 layout: project
 title: Client Outline
 description: Advanced CAD Project
-
+image: /assets/images/ClientOutlineFigure1.png
 ---
 
 # Wine Grape Post-Harvest Filtration
