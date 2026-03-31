@@ -84,7 +84,15 @@ New York State Integrated Pest Management, 2026.
 
 ## 2. Functional Prototype
 
+# Design Intent
 
+![Figure 1](/assets/images/FP1.png)
+*<center>Figure 1: CAD cross section of full assembly</center>*
+
+Figure 1 above shows a section analysis of the full assembly of our complete design. However, due to time constraints specifically on our 3D printed part, our functional prototype looks slightly different, with an adapted housing created from the initial cylinder to save on time and cost.
+
+![Figure 2](/assets/images/FP2.png)
+*<center>Figure 2: CAD of adapted cylinder</center>*
 
 [Back to top](#)
 
