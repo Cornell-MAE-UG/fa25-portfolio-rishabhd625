@@ -88,22 +88,22 @@ New York State Integrated Pest Management, 2026.
 
 ### Design Intent
 
-![Figure 1](fa25-portfolio-rishabhd625/assets/images/FP1.png)
+![Figure 1](/fa25-portfolio-rishabhd625/assets/images/FP1.png)
 *<center>Figure 1: CAD cross section of full assembly</center>*
 
 Figure 1 above shows a section analysis of the full assembly of our complete design. However, due to time constraints specifically on our 3D printed part, our functional prototype looks slightly different, with an adapted housing created from the initial cylinder to save on time and cost.
 
-![Figure 2](fa25-portfolio-rishabhd625//assets/images/FP2.png)
+![Figure 2](/fa25-portfolio-rishabhd625//assets/images/FP2.png)
 *<center>Figure 2: CAD of adapted cylinder</center>*
 
 Figure 2 above shows the CAD of the adapted housing that we created for our functional prototype to save on time and 3D printing cost. We removed much of the height of the cylinder, focusing on the function of the rotating base for our prototype. 
 
-![Figure 3](fa25-portfolio-rishabhd625//assets/images/FP3.png)
+![Figure 3](/fa25-portfolio-rishabhd625//assets/images/FP3.png)
 *<center>Figure 3: Annotated Sketch of Functional Prototype</center>*
 
 Figure 3 shows a sketch of our prototype, with the various components labeled. The main function of the prototype is when the handle is rotated, the base rotates beneath. The handle is threaded onto the shaft, and the bearing supports the shaft radially. The base is press-fit to the shaft through a milled hex connection. The modified cylinder (“housing”) remains fixed during this rotation process, allowing for the grape juice and excess water to be filtered accordingly as the base rotates.
 
-![Figure 4](fa25-portfolio-rishabhd625//assets/images/FP4.png)
+![Figure 4](/fa25-portfolio-rishabhd625//assets/images/FP4.png)
 *<center>Figure 4: Annotated Sketch of Base Component</center>*
 
 Figure 4 shows a sketch of our base component. There are 3 sections: a solid base, and very fine mesh that only lets liquid through, and a complete opening. The base is able to rotate freely from each side to the other, to perform the sequence needed to remove the SLF. 
@@ -113,7 +113,7 @@ The intended sequence model is illustrated in Figure 5, and detailed as follows:
 First pour mixture of grapes grape juice, and SLF over mesh, filtering out the grape juice, which will be collected in a vessel beneath the device. Then, rotate the base such that the surface under the mixture, which now only contains grapes and SLF, is the solid base. Pour water over the grapes and SLF, and then wait several minutes as density properties cause the SLF float to the top while the grapes stay at the bottom. Filter out the SLF manually from the surface of the liquid. Then, rotate the base again such that the mesh base is again under the mixture, causing the water to drain out of the mixture. Last, rotate the base such that the open section is beneath the grapes, allowing the grapes to fall out of the bottom of the container, and be collected in a vessel along with the grape juice.
 
 
-![Figure 5](fa25-portfolio-rishabhd625//assets/images/FP5.png)
+![Figure 5](/fa25-portfolio-rishabhd625//assets/images/FP5.png)
 *<center>Figure 5: Filtration sequence, illustrated with blue “grapes” and white “SLF.”</center>*
 
 ### Design Tests
@@ -142,10 +142,10 @@ First pour mixture of grapes grape juice, and SLF over mesh, filtering out the g
 
     These results have important design implications. The first observation, regarding the widening gap between the dividers and the base, indicated that a support system beneath the base is quite necessary — the shaft collar and press fit between the shaft and base is not sufficient to vertically support the load. This was not a surprise or concern, as our design already accounts for placing bolts under the base — we were just not able to incorporate them into this prototype due to tolerancing issues (see Assembly section). The second observation will ideally also be resolved by this solution, as the vertical support provided by the bolts will prevent the observed angled deflection. However, we also plan to explore optimizing our design so that two out of three sections can be filled and filtered simultaneously — which would not only increase efficiency, but help limit the observed angled deflection due to more even distribution of loading.
 
-![Figure 12](fa25-portfolio-rishabhd625//assets/images/FP12.png)
+![Figure 12](/fa25-portfolio-rishabhd625//assets/images/FP12.png)
 *<center>Figure 12: Water retention testing</center>*
 
-![Figure 13](fa25-portfolio-rishabhd625//assets/images/FP13.png)
+![Figure 13](/fa25-portfolio-rishabhd625//assets/images/FP13.png)
 *<center>Figure 13: Weights used for weight testing</center>*
 
 ### Success Criteria
