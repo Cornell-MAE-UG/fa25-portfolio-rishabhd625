@@ -241,18 +241,14 @@ rubber divider flaps for sealing, but was load-limited due to the base being hel
 pressfit. Our final design accounted for all of these design challenges with a tri-sector design, o-ring
 and rubber flaps, and additional bearing and shaft collar supports for the base.
 
-![Figure 17](/fa25-portfolio-rishabhd625//assets/images/water_test.png)
-*<center>Figure 17: rototype improvements: o-ring, rubber divider flaps, and base support</center>*
+![Figure 17](/fa25-portfolio-rishabhd625//assets/images/p3.png)
+*<center>Figure 17: Prototype improvements: o-ring, rubber divider flaps, and base support</center>*
 
-<div align="center">
-
-| |Rotation | Water Retention | Max. Weight |
-|:----:|:----:|:----:|:----:|
-|Prototype 1|Easy|10 sec|2 kg|
-|Prototype 2|Difficult|52 sec|2 kg|
-|Prototype 1|Moderate|64 sec|8 kg|
-
-</div>
+| | Rotation | Water Retention | Max. Weight |
+| :--- | :---: | :---: | :---: |
+| Prototype 1 | Easy | 10 sec | 2 kg |
+| Prototype 2 | Difficult | 52 sec | 2 kg |
+| Final Prototype | Moderate | 64 sec | 8 kg |
 
 *Comparison of prototype performance*
 
@@ -269,17 +265,23 @@ a cylinder of 2 m height and 0.4 m radius. In this case, a torque of ∼ 600 N·
 to rotate the device at a constant rate. At 3 RPM (minimum speed to process a 1-ton load within
 3 minutes), this corresponds to ∼ 188 W—an achievable power output for a single human.
 
-Geometry:
-$$1\,\text{m}^3 = \pi r^2 h \implies r=0.4\,\text{m},\; h=2\,\text{m}$$
+### Geometry
+
+$$
+1\,\text{m}^3 = \pi r^2 h \implies r=0.4\,\text{m},\; h=2\,\text{m}
+$$
 
 ---
 
-Torque due to friction:
-$$T_{\text{total}} = T_{\text{sides}} + T_{\text{base}}$$
+### Torque due to friction
+
+$$
+T_{\text{total}} = T_{\text{sides}} + T_{\text{base}}
+$$
 
 ---
 
-Side-seal friction:
+### Side-seal friction
 *(Nitrile O-ring: $\mu \approx 0.3$, $E \approx 8\,\text{MPa}$)*
 
 $$
@@ -293,7 +295,7 @@ $$
 
 ---
 
-Base-support friction:
+### Base-support friction
 *(Metal–metal: $\mu \approx 0.3$, 4 supports)*
 
 $$
@@ -307,12 +309,15 @@ $$
 
 ---
 
-Total Torque:
-$$T_{\text{total}} = 120 + 478 \approx \mathbf{600\,\text{N\,m}}$$
+### Total Torque
+
+$$
+T_{\text{total}} = 120 + 478 \approx \mathbf{600\,\text{N\,m}}
+$$
 
 ---
 
-Power at 3 RPM:
+### Power at 3 RPM
 *($20\,\text{s/rev}$; $\sim7\,\text{s/section}$)*
 
 $$
@@ -343,23 +348,19 @@ of SLF-grape density difference.
 [1] Bekelja, K. and Russo, J. ”MAE 2250 - Spotted Lanternfly Presentation,” Cornell IPM and
 New York State Integrated Pest Management, 2026.
 
-<div align="center">
-
 *Table 2: Bill of Materials*
 
-|Name|Buy/Make|Description|McMaster Code|Qty|Cost|
-|:---|:---|:---|:---|:---|:---|
-|Cylinder and divider|Make – 3D print|Large OD, thin-walled cylinder divided into three segments, with central axis for housing shaft and bearings.|N/A|1|$35|
-|Base|Make – 3D print|Bottom surface of device. Contains groove for O-ring and hex for press fit with shaft|N/A|1|$5|
-|Shaft|Buy & Machine|Aluminum shaft; threaded on one end (lathe), hex milled on other end|8974K24|1|$2.55|
-|Bearing|Buy|Food-safe sealed bearing (440C SS, R6-2RS) for 3/8 in shaft.|4648K14|1|$23.52|
-|Handle|Buy|Adjustable crank handle with revolving grip, 3/8-16 thread.|6129K2|1|$20.85|
-|Mesh|Buy|304 SS filter mesh; passes liquid but not solids|85385T708|1|$6.42|
-|O-Ring|Buy|EPDM O-ring sealing cylinder to base.|8785N648|1|$1.35|
-|Shaft Collar|Buy|Clamping collar for axial support on shaft.|6436K13|1|$6.22|
-|Sleeve Bearing|Buy|Oil-embedded sleeve bearings under base for rotation.|2868T43|4|$3.44|
-|Bearing Bolts|OTS|M5 bolts supporting base through cylinder.|N/A|4|N/A|
-
-</div>
+| Name | Buy/Make | Description | McMaster Code | Qty | Cost |
+| :--- | :--- | :--- | :--- | :---: | :--- |
+| **Cylinder and divider** | Make – 3D print | Large OD, thin-walled cylinder divided into three segments, with central axis for housing shaft and bearings. | N/A | 1 | $35 |
+| **Base** | Make – 3D print | Bottom surface of device. Contains groove for O-ring and hex for press fit with shaft | N/A | 1 | $5 |
+| **Shaft** | Buy & Machine | Aluminum shaft; threaded on one end (lathe), hex milled on other end | 8974K24 | 1 | $2.55 |
+| **Bearing** | Buy | Food-safe sealed bearing (440C SS, R6-2RS) for 3/8 in shaft. | 4648K14 | 1 | $23.52 |
+| **Handle** | Buy | Adjustable crank handle with revolving grip, 3/8-16 thread. | 6129K2 | 1 | $20.85 |
+| **Mesh** | Buy | 304 SS filter mesh; passes liquid but not solids | 85385T708 | 1 | $6.42 |
+| **O-Ring** | Buy | EPDM O-ring sealing cylinder to base. | 8785N648 | 1 | $1.35 |
+| **Shaft Collar** | Buy | Clamping collar for axial support on shaft. | 6436K13 | 1 | $6.22 |
+| **Sleeve Bearing** | Buy | Oil-embedded sleeve bearings under base for rotation. | 2868T43 | 4 | $3.44 |
+| **Bearing Bolts** | OTS | M5 bolts supporting base through cylinder. | N/A | 4 | N/A |
 
 [Back to top](#)
