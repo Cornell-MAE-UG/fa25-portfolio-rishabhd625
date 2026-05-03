@@ -268,7 +268,7 @@ to rotate the device at a constant rate. At 3 RPM (minimum speed to process a 1-
 ### Geometry
 
 $$
-1\,\text{m}^3 = \pi r^2 h \implies r=0.4\,\text{m},\; h=2\,\text{m}
+1 \text{ m}^3 = \pi r^2 h \implies r=0.4 \text{ m}, h=2 \text{ m}
 $$
 
 ---
@@ -282,28 +282,28 @@ $$
 ---
 
 ### Side-seal friction
-*(Nitrile O-ring: $\mu \approx 0.3$, $E \approx 8\,\text{MPa}$)*
+*(Nitrile O-ring: $\mu \approx 0.3$, $E \approx 8 \text{ MPa}$)*
 
 $$
 \begin{aligned}
-  T_{\text{sides}} &= \mu \, F_{N,\text{seal}} \, r \\
-    &= \mu \cdot \underbrace{(\sim400\,\text{N/m})}_{\text{unit load}} \cdot (2\pi r) \cdot r \\
-    &= 0.3 \times (400\,\text{N/m}) \times (2 \times 0.4\,\text{m}) \times 0.4\,\text{m} \\
-    &\approx \mathbf{120\,\text{N\,m}}
+  T_{\text{sides}} &= \mu \cdot F_{\text{seal}} \cdot r \\
+    &= \mu \cdot (400 \text{ N/m}) \cdot (2\pi r) \cdot r \\
+    &= 0.3 \times 400 \times (2 \times 0.4) \times 0.4 \\
+    &\approx 120 \text{ Nm}
 \end{aligned}
 $$
 
 ---
 
 ### Base-support friction
-*(Metal–metal: $\mu \approx 0.3$, 4 supports)*
+*(Metal-metal: $\mu \approx 0.3$, 4 supports)*
 
 $$
 \begin{aligned}
-  T_{\text{base}} &= 4 \, \mu \, F_{N,\text{base}} \, r \\
-    &= 4 \times 0.3 \times \rho_w V g \times r \\
-    &= 4 \times 0.3 \times (997\,\text{kg/m}^3) \times (1\,\text{m}^3) \times (9.81\,\text{m/s}^2) \times 0.4\,\text{m} \\
-    &\approx \mathbf{478\,\text{N\,m}}
+  T_{\text{base}} &= 4 \cdot \mu \cdot F_{\text{base}} \cdot r \\
+    &= 4 \times 0.3 \times \rho V g \times r \\
+    &= 4 \times 0.3 \times 997 \times 1 \times 9.81 \times 0.4 \\
+    &\approx 478 \text{ Nm}
 \end{aligned}
 $$
 
@@ -312,19 +312,19 @@ $$
 ### Total Torque
 
 $$
-T_{\text{total}} = 120 + 478 \approx \mathbf{600\,\text{N\,m}}
+T_{\text{total}} = 120 + 478 \approx 600 \text{ Nm}
 $$
 
 ---
 
 ### Power at 3 RPM
-*($20\,\text{s/rev}$; $\sim7\,\text{s/section}$)*
+*($20 \text{ s/rev}$; $\sim 7 \text{ s/section}$)*
 
 $$
 \begin{aligned}
   P &= T_{\text{total}} \cdot \omega \\
-     &= 600\,\text{N\,m} \times \frac{2\pi \times 3}{60}\,\text{rad/s} \\
-     &\approx \mathbf{188\,\text{W}}
+     &= 600 \text{ Nm} \times \frac{2\pi \times 3}{60} \text{ rad/s} \\
+     &\approx 188 \text{ W}
 \end{aligned}
 $$
 
