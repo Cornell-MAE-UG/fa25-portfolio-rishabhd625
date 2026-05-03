@@ -10,15 +10,13 @@ image: /assets/images/FP1.png
 
 
 ## Table of Contents
-* [1. Client Outline](#1-client-outline)
+* [1. Client Pitch](#1-client-pitch)
 * [2. Functional Prototype](#2-functional-prototype)
-
+* [3. Client Report](#3-client-report)
 
 ---
 
-## 1. Client Outline
-
-[Back to top](#)
+## 1. Client Pitch
 
 ### Wine Grape Post-Harvest Filtration
 
@@ -81,6 +79,8 @@ New York State Integrated Pest Management, 2026.
 
 
 [def]: /assets/images/ClientOutlineFigure1.png
+
+[Back to top](#)
 
 ---
 
@@ -161,3 +161,205 @@ Success criteria:
 [Back to top](#)
 
 ---
+
+## 3. Client Report
+
+### Wine Grape Post-Harvest Filtration
+
+**Clients**: Cornell CALS Extension / E&J Gallo Winery / National Grape
+**Trees of Doom**: Charlotte Tama, Hillary Browne, Rishabh Dholakia, Sava Iliev, Yhanna Priester
+
+### Grape Harvest Integrated Filtration System
+
+Spotted lanternflies (SLF) damage grape vines and end up in the harvested grape and juice mix-
+ture. More than 0.1% foreign matter in harvested grape batches results in entire 22-ton batches
+of harvest being rejected per FDA regulation [1]. Contamination is tested in 1000g samples, and
+SLF weigh 0.5-1.0g each, meaning that the presence of just 1-2 bugs in a batch can be detrimental
+[1]. Ultimately, the rejection of grape harvest batches due to foreign matter presence
+decreases New York state vineyard profits by millions of dollars per year.
+
+Trees of Doom has developed a small-scale mechanical filter to remove SLF from harvested mixture
+post-harvest. Unlike preventative methods, removal at this stage ensures that SLF are removed
+for good. Our prototype allows the user to strain out the juice from harvest and then use water
+density separation to isolate and remove SLF from solid mass. The design requires no electrical
+power and features food-safe bearings and a robust design, making it cheap and durable.
+
+We conducted a variety of tests to assess the viability of our prototype for continued development.
+Our verdict is that the fundamental mechanism of our design functions as intended; however, lim-
+its on scalability make it best suited for use on small-scale organic vineyards and empirical testing
+should still be conducted with real grapes and SLF to validate effectiveness.
+
+### Final Prototype and Application
+
+Our final prototype is shown below:
+
+![Figure 14](/fa25-portfolio-rishabhd625//assets/images/p1.png)
+*<center>Figure 14: Final Prototype</center>*
+
+The harvested grape juice, grapes, and SLF mixture can be poured into one of the tri-sections
+of the cylinder, and the base is rotated in a sequence (shown below) such that the three mixture
+components can be separated. First, the grape juice is filtered out as the mixture is poured over
+the mesh base section. Then, SLF and grapes are separated with the addition of water, as SLF
+float while grapes sink. Finally, the water is filtered out and the untarnished grapes are collected.
+
+![Figure 15](/fa25-portfolio-rishabhd625//assets/images/p2.png)
+*<center>Figure 15: Use Sequence</center>*
+
+The steps for the assembly of our final prototype are detailed below:
+
+1. Machine the shaft to create a hex on one end and threading on the other.
+2. 3D print the base and cylinder out of PLA.
+3. Cut mesh to the size of the base piece’s mesh indent. Secure with epoxy.
+4. Press-fit the shaft into the base and bearings into the cylinder.
+5. Cut and stretch the o-ring around the base. Cut and insert rubber flaps into cylinder.
+6. Assemble shaft + base with cylinder and secure with shaft collars. Screw handle on top.
+7. Support the base from below by inserting bolts and bearings through the cylinder bolt holes.
+
+### Testing and Results
+
+We defined success criteria for our design as follows:
+* One standard load of harvested grape mixture (1 ton for small-scale vineyard, 22 tons for
+large-scale) should be fully filtered within 3 minutes for efficient processing.
+* Particles with a density of 500 kg/m3 (SLF) should float to the top of the cylinder for removal,
+while particles with a density of 1100 kg/m3 (grapes) should sink.
+* Water retention should be sufficient such that per cycle, water need only be added once.
+
+Three mechanical tests were used to roughly evaluate our success criteria for our small-scale pro-
+totype: a rotation test, a water retention test, and a weight test. These tests were repeated with
+each improved prototype. The rotation test was a subjective evaluation of the ease of rotation of
+the base. The water retention test was a measurement of how long it took the solid base section
+to drain all water, and whether clay “grapes” could be separated from foam “SLF.” The weight
+test was a measurement of the maximum weight supported by the base while still allowing rotation
+without excess deflection.
+
+![Figure 16](/fa25-portfolio-rishabhd625//assets/images/water_test.png)
+*<center>Figure 16: Water retention test. Blue clay = grape density & white styrofoam = SLF density</center>*
+
+We iterated through two designs before reaching our final prototype. Prototype 1 featured a tri-
+base design but no sealing mechanisms, making it very leaky. Prototype 2 featured an o-ring and
+rubber divider flaps for sealing, but was load-limited due to the base being held up with just a
+pressfit. Our final design accounted for all of these design challenges with a tri-sector design, o-ring
+and rubber flaps, and additional bearing and shaft collar supports for the base.
+
+![Figure 17](/fa25-portfolio-rishabhd625//assets/images/water_test.png)
+*<center>Figure 17: rototype improvements: o-ring, rubber divider flaps, and base support</center>*
+
+<div align="center">
+
+| |Rotation | Water Retention | Max. Weight |
+|:----:|:----:|:----:|:----:|
+|Prototype 1|Easy|10 sec|2 kg|
+|Prototype 2|Difficult|52 sec|2 kg|
+|Prototype 1|Moderate|64 sec|8 kg|
+
+</div>
+
+*Comparison of prototype performance*
+
+### Conclusions and Recommendation
+
+Based on our prototyping and testing, we conclude that filtering grapes and SLF based on density
+is feasible, but further research is needed to assess the reliability of the density difference and to
+refine the success criterion for particle separation. Additionally, real-world implementation would
+likely be limited in scale and impractical for large commercial harvesting applications.
+
+However, a moderately scaled-up version of the prototype may be useful for small-batch vineyards.
+At this scale, grape batches weigh approximately 1 ton, occupying roughly 1 m3, and would require
+a cylinder of 2 m height and 0.4 m radius. In this case, a torque of ∼ 600 N·m would be required
+to rotate the device at a constant rate. At 3 RPM (minimum speed to process a 1-ton load within
+3 minutes), this corresponds to ∼ 188 W—an achievable power output for a single human.
+
+Geometry:
+$$1\,\text{m}^3 = \pi r^2 h \implies r=0.4\,\text{m},\; h=2\,\text{m}$$
+
+---
+
+Torque due to friction:
+$$T_{\text{total}} = T_{\text{sides}} + T_{\text{base}}$$
+
+---
+
+Side-seal friction:
+*(Nitrile O-ring: $\mu \approx 0.3$, $E \approx 8\,\text{MPa}$)*
+
+$$
+\begin{aligned}
+  T_{\text{sides}} &= \mu \, F_{N,\text{seal}} \, r \\
+    &= \mu \cdot \underbrace{(\sim400\,\text{N/m})}_{\text{unit load}} \cdot (2\pi r) \cdot r \\
+    &= 0.3 \times (400\,\text{N/m}) \times (2 \times 0.4\,\text{m}) \times 0.4\,\text{m} \\
+    &\approx \mathbf{120\,\text{N\,m}}
+\end{aligned}
+$$
+
+---
+
+Base-support friction:
+*(Metal–metal: $\mu \approx 0.3$, 4 supports)*
+
+$$
+\begin{aligned}
+  T_{\text{base}} &= 4 \, \mu \, F_{N,\text{base}} \, r \\
+    &= 4 \times 0.3 \times \rho_w V g \times r \\
+    &= 4 \times 0.3 \times (997\,\text{kg/m}^3) \times (1\,\text{m}^3) \times (9.81\,\text{m/s}^2) \times 0.4\,\text{m} \\
+    &\approx \mathbf{478\,\text{N\,m}}
+\end{aligned}
+$$
+
+---
+
+Total Torque:
+$$T_{\text{total}} = 120 + 478 \approx \mathbf{600\,\text{N\,m}}$$
+
+---
+
+Power at 3 RPM:
+*($20\,\text{s/rev}$; $\sim7\,\text{s/section}$)*
+
+$$
+\begin{aligned}
+  P &= T_{\text{total}} \cdot \omega \\
+     &= 600\,\text{N\,m} \times \frac{2\pi \times 3}{60}\,\text{rad/s} \\
+     &\approx \mathbf{188\,\text{W}}
+\end{aligned}
+$$
+
+Thus, the power required for the device’s operation at the small-batch vineyards is well-within the
+power within a human’s comfortable power threshold. It would also be aligned with the produced-
+by-hand ethos of small-batch vineyards. Moreover, the device is cost-effective. Our prototype cost a
+total of $140, and we estimate a maximum cost of $1000 for the small-batch vineyard scaled version.
+
+For larger vineyards, however, several scaling problems come up. The increased harvest loads
+(approximately 22 tons) would preclude manual device operation and require a powerful motor.
+Additionally, the prototype would require redesign to support the massive load while allowing for
+smooth rotation and preventing leakage. Last, vast batches may prevent SLF and grapes from fully
+undergoing the density separation our device relies upon.
+
+Thus, we recommend limiting implementation of our device to small-scale vineyards, and suggest
+further research into methods for preventing leakage without impeding rotation and the reliability
+of SLF-grape density difference.
+
+### References, BOM, and Final Poster
+
+[1] Bekelja, K. and Russo, J. ”MAE 2250 - Spotted Lanternfly Presentation,” Cornell IPM and
+New York State Integrated Pest Management, 2026.
+
+<div align="center">
+
+*Table 2: Bill of Materials*
+
+|Name|Buy/Make|Description|McMaster Code|Qty|Cost|
+|:---|:---|:---|:---|:---|:---|
+|Cylinder and divider|Make – 3D print|Large OD, thin-walled cylinder divided into three segments, with central axis for housing shaft and bearings.|N/A|1|$35|
+|Base|Make – 3D print|Bottom surface of device. Contains groove for O-ring and hex for press fit with shaft|N/A|1|$5|
+|Shaft|Buy & Machine|Aluminum shaft; threaded on one end (lathe), hex milled on other end|8974K24|1|$2.55|
+|Bearing|Buy|Food-safe sealed bearing (440C SS, R6-2RS) for 3/8 in shaft.|4648K14|1|$23.52|
+|Handle|Buy|Adjustable crank handle with revolving grip, 3/8-16 thread.|6129K2|1|$20.85|
+|Mesh|Buy|304 SS filter mesh; passes liquid but not solids|85385T708|1|$6.42|
+|O-Ring|Buy|EPDM O-ring sealing cylinder to base.|8785N648|1|$1.35|
+|Shaft Collar|Buy|Clamping collar for axial support on shaft.|6436K13|1|$6.22|
+|Sleeve Bearing|Buy|Oil-embedded sleeve bearings under base for rotation.|2868T43|4|$3.44|
+|Bearing Bolts|OTS|M5 bolts supporting base through cylinder.|N/A|4|N/A|
+
+</div>
+
+[Back to top](#)
