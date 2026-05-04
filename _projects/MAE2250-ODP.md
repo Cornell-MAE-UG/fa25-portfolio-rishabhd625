@@ -265,69 +265,6 @@ a cylinder of 2 m height and 0.4 m radius. In this case, a torque of ∼ 600 N·
 to rotate the device at a constant rate. At 3 RPM (minimum speed to process a 1-ton load within
 3 minutes), this corresponds to ∼ 188 W—an achievable power output for a single human.
 
-### Geometry
-
-$$
-1 \text{ m}^3 = \pi r^2 h \implies r=0.4 \text{ m}, h=2 \text{ m}
-$$
-
----
-
-### Torque due to friction
-
-$$
-T_{\text{total}} = T_{\text{sides}} + T_{\text{base}}
-$$
-
----
-
-### Side-seal friction
-*(Nitrile O-ring: $\mu \approx 0.3$, $E \approx 8 \text{ MPa}$)*
-
-$$
-\begin{aligned}
-  T_{\text{sides}} &= \mu \cdot F_{\text{seal}} \cdot r \\
-    &= \mu \cdot (400 \text{ N/m}) \cdot (2\pi r) \cdot r \\
-    &= 0.3 \times 400 \times (2 \times 0.4) \times 0.4 \\
-    &\approx 120 \text{ Nm}
-\end{aligned}
-$$
-
----
-
-### Base-support friction
-*(Metal-metal: $\mu \approx 0.3$, 4 supports)*
-
-$$
-\begin{aligned}
-  T_{\text{base}} &= 4 \cdot \mu \cdot F_{\text{base}} \cdot r \\
-    &= 4 \times 0.3 \times \rho V g \times r \\
-    &= 4 \times 0.3 \times 997 \times 1 \times 9.81 \times 0.4 \\
-    &\approx 478 \text{ Nm}
-\end{aligned}
-$$
-
----
-
-### Total Torque
-
-$$
-T_{\text{total}} = 120 + 478 \approx 600 \text{ Nm}
-$$
-
----
-
-### Power at 3 RPM
-*($20 \text{ s/rev}$; $\sim 7 \text{ s/section}$)*
-
-$$
-\begin{aligned}
-  P &= T_{\text{total}} \cdot \omega \\
-     &= 600 \text{ Nm} \times \frac{2\pi \times 3}{60} \text{ rad/s} \\
-     &\approx 188 \text{ W}
-\end{aligned}
-$$
-
 Thus, the power required for the device’s operation at the small-batch vineyards is well-within the
 power within a human’s comfortable power threshold. It would also be aligned with the produced-
 by-hand ethos of small-batch vineyards. Moreover, the device is cost-effective. Our prototype cost a
